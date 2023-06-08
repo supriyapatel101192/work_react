@@ -1,0 +1,70 @@
+@import '../../../../styles/sass/index.scss';
+
+.know-cc-bg {
+  background: linear-gradient(25deg, $blackpearl, $darkgreen);
+  max-width: 100% !important;
+  min-height: 85vh !important;
+}
+.squares-cc {
+  animation: move-left-right 1s infinite;
+    background: $orange;
+    background: -webkit-linear-gradient(0deg, $orange 0%, $endeavour 100%);
+    background: -o-linear-gradient(0deg, $orange 0%, $endeavour 100%);
+    background: -moz-linear-gradient(0deg, $orange 0%, $endeavour 100%);
+    background: linear-gradient(0deg, $orange 0%, $endeavour 100%);
+    position: absolute;
+    transition: 0.5s ease-out;
+    overflow: hidden;
+    border-radius: 20%;
+}
+.squares-cc.square1 {
+  animation: move-left-right 9s infinite;
+    left: 10%;
+    top: 35%;
+    height: 80px;
+    width: 80px;
+    opacity: 0.8;
+}
+.squares-cc.square2 {
+  animation: move-left-right 6s infinite;
+    height: 250px;
+    width: 250px;
+    opacity: 0.1;
+    left: 32%;
+    bottom: 29%;
+}
+.squares-cc.square3 {
+  animation: move-left-right 3s infinite;
+    width: 300px;
+    height: 300px;
+    right: -0px;
+    bottom: 0%;
+    opacity: 0.1;
+}
+.squares-cc.square4 {
+  animation: move-left-right 3s infinite;
+    width: 300px;
+    height: 300px;
+    left: -5%;
+    bottom: 0%;
+    opacity: 0.1;
+}
+.squares-cc.square5 {
+  animation: move-left-right 6s infinite;
+    height: 250px;
+    width: 250px;
+    opacity: 0.1;
+    left: 10%;
+}
+.justify-content-between {
+  justify-content: space-between !important;
+}
+.align-items-center {
+  align-items: center !important;
+}
+.text-white-cc {
+  color: $white;
+}
+.text-aqua-cc {
+  color: $aqua;
+}

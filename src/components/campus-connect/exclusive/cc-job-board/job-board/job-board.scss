@@ -1,0 +1,82 @@
+@import "../../../../../styles/sass/index.scss";
+
+.cc-jb-card {
+    border: none !important;
+    margin-top: 55px;
+}
+.cc-jb-tab-headers {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: $white !important;
+  color: $black !important;
+  border-bottom: transparent !important;
+  &:hover,
+  &:active {
+    background-color: $white !important;
+  }
+}
+.cc-jb-tab-border{
+  border-bottom: transparent !important;
+}
+.cc-jb-profile-nav-tabs {
+  font-stretch: ultra-expanded;
+  font-size: 18px;
+  border: none !important;
+  color: $davysgrey;
+  opacity: 0.8;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: $dmSans;
+  &:hover {
+    font-stretch: ultra-expanded;
+    border-bottom: solid 2px $greenvogue !important;
+    color: $greenvogue !important;
+    opacity: 1;
+  }
+}
+.cc-jb-profile-nav-tabs.active {
+  font-stretch: semi-expanded;
+  border-bottom: solid 2px $greenvogue !important;
+  width: 100%;
+  color: $greenvogue !important;
+  opacity: 1;
+}
+.cc-row-job-tab {
+  content: "";
+  clear: both;
+  // display: table;
+  // display: inline-block;
+  vertical-align: middle;
+}
+.cc-column-job-tab-left {
+  float: left;
+  padding-right: 15px;
+}
+.cc-column-job-tab-right {
+  float: right;
+  padding-left: 15px;
+}
+.cc-row-job-tab-mobile{
+  display: none;
+}
+@media screen and (max-width: 960px) {
+.cc-jb-card {
+    margin-top: 55px;
+}
+.cc-row-job-tab-mobile {
+  display:block;
+}
+.cc-row-job-tab{
+  display: none;
+}
+.cc-job-tab-img{
+  height:auto;
+  width: 25px;
+  margin-top: 10px;
+}
+.cc-jb-profile-nav-tabs {
+  color: $perano;
+}
+}

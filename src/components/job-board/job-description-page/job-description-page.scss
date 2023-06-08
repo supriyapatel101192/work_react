@@ -1,0 +1,77 @@
+@import "../../../styles/sass/index.scss";
+
+.job-page-container {
+  // background-color: $isabelline;
+  margin-top: 80px;
+  // margin-bottom: 10px;
+  max-width: 100% !important;
+  padding: 10px;
+  background-color: $isabelline;
+  min-height: 110vh;
+  height:auto;
+}
+.job-content {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+.jd-top-row {
+  margin: 20px 0 20px 0;
+}
+.job-card-content {
+  border-radius: 1px;
+  background-color: $white !important;
+  display: "block";
+  padding: 30;
+  margin-bottom: 20px;
+}
+.job-org-content {
+  background-color: $white;
+  height: 100%;
+}
+.jd-page-header {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: $dmSans;
+  color: $onyx;
+  text-decoration: underline;
+}
+.jd-content-bg {
+  background: $white !important;
+  padding: 30px;
+}
+.blog-img {
+  height: 200px;
+}
+.blog-title {
+  height: 50px;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: $dmSans;
+  color: $onyx;
+}
+.blog-subtitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: $dmSans;
+  color: $onyx;
+}
+.blog-link {
+  margin-top: 5px;
+  height: 75px !important;
+  overflow: auto;
+  font-weight: 400;
+  font-size: 13px;
+  font-family: $dmSans;
+}
+.blog-card {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  }
+.text-link{
+  color: $endeavour !important;
+}

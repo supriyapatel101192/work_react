@@ -1,0 +1,217 @@
+@import '../../../../styles/sass/index.scss';
+
+.eh-login-row-left {
+    background: linear-gradient(25deg, $shadessalmon, $christalle);
+}
+.eh-login-align-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.eh-login-img {
+    width: 250px;
+    height: auto !important;
+    opacity: 0.91 !important;
+    border: 1px solid transparent !important;
+    border-radius: 5px;
+}
+.eh-login-col-sm-4 {
+	float: right !important;
+}
+
+.eh-login-card-header{
+    background: transparent;
+    border: 1px solid transparent;
+    text-align: center;
+    margin-top: 2rem;
+}
+.eh-login-card-header:hover{
+    background: transparent !important;
+}
+.eh-login-margin-header{
+    text-align: center;
+}
+.eh-login-hr-align{
+    color: $gainsboro;
+}
+
+.eh-login-text-blue{
+    color: $davysgrey !important;
+    text-decoration: none !important;
+    margin-left: 5px !important;
+  }
+
+.eh-login-text-blue:hover {
+    color: $coral !important;
+    font-style:normal;
+}
+
+
+.eh-login-input-margin{
+    padding: 5px;
+}
+
+.eh-login-input-group-det {
+    border: 1px solid $silver !important;
+    border-radius: 5px !important;
+    height: 65px !important;
+}
+
+.eh-login-input-group-det:focus {
+    border-color: $suvagrey !important;
+    box-shadow: none !important;
+}
+
+.eh-login-input-group-det:hover {
+    border-color: $suvagrey !important;
+    box-shadow: none !important;
+}
+
+.eh-login-input-group-text {
+    border: 1px solid transparent !important;
+}
+.eh-login-text-header{
+    color: $resolutionblue !important;
+}
+.eh-login--img-header{
+    height: 80px;
+    width: 200px;
+}
+.eh-login-text-1{
+    color: $rust !important;
+    font-size: 24px;
+}
+.eh-login-text-2{
+    color: $christalle !important;
+    font-size: 24px;
+}
+.eh-login-btn-filled {
+    width: 100%;
+    display: inline !important;
+    background-image: linear-gradient(0deg, $tangerineyellow 0%, $lemonchiffon 100%);
+    color: $blackpearl;
+    border-radius: 5px !important;
+    padding: 15px 5px 15px 10px !important;
+}
+.eh-login-btn-filled:focus{
+    outline: none;
+    box-shadow:none !important;
+  }
+
+.eh-login-btn-filled:hover{
+    color: $blackpearl;
+}
+.eh-login-text-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.eh-login-text-muted:hover {
+    color: $coral !important;
+}
+
+.eh-head-col-bg-img {
+    background-color: $ivory;
+    transition: all 200ms ease;
+    background-position: 0px 100%;
+    width: 41.66666667%;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+}
+.eh-login-head-col-bg-img {
+    background-color: $ivory;
+    transition: all 200ms ease;
+    background-position: 0px 100%;
+    width: 41.66666667%;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+.eh-login-head-col-bg-form {
+    transition: all 200ms ease;
+    background-position: 0px 100%;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 960px) {
+    .eh-login-head-col-bg-img {
+        width: 100% !important;
+        position: relative;
+    }
+    .eh-login-head-col-bg-form {
+        width: 100% !important;
+        position: relative;
+    }
+}
+.eh-login-head-col-bg-text{
+    background: $darkgreen;
+}
+.eh-login-text-welcome{
+    color: $bluediamond;
+}
+.eh-login-text-lite-grey{
+    color: $suvagrey;
+}
+.eh-login-cover-footer {
+    bottom: 0;
+    padding: 50px;
+    align-self: stretch;
+    text-align: right;
+    transform: translate(0px, 90%);
+}
+.eh-login-cover-image-center-wrapper {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 48px;
+    padding-left: 48px;
+    transform: translate(0px, 40%);
+    transition: all 200ms ease;
+    text-align: center;
+}
+
+.eh-login-otp-pwd-toggle-btn {
+    border: 1px solid $silver !important;
+    border-radius: 25px !important;
+    height: 20px !important;
+    width: 38px !important;
+}
+
+.eh-login-otp-pwd-toggle-btn:focus {
+    border-color: $suvagrey !important;
+    box-shadow: none !important;
+}
+
+.eh-login-otp-pwd-toggle-btn:hover {
+    border-color: $suvagrey !important;
+    box-shadow: none !important;
+}
+.text-otp-true-eh{
+    color: $dodgerblue;
+}
+.eh-text-login-row{
+    clear: both;
+}
+.eh-text-left-login{
+    float: left;
+}
+.eh-text-right-login{
+    float: right;
+}
+.card-login-header-eh{
+    background: transparent;
+    border: 1px solid transparent;
+    text-align: center;
+    margin-top: 2rem;
+}
+.card-login-header-eh:hover{
+    background: transparent !important;
+}

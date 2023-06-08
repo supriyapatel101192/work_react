@@ -1,0 +1,91 @@
+@import "../../../styles/sass/index.scss";
+
+.ct-review-button{
+
+    background-image: linear-gradient(
+        0deg,
+        $outrageousorange 0%,
+        $lightsalmon 100%,
+    );
+    float:right;
+      color: $white;
+      border-radius: 3px;
+      margin: 1px 3px 2px 5px;
+      height: 37px;
+      // width: 100%;
+      box-shadow: 0 0 10px rgb(163, 163, 154);
+      transition: transform 0.2s;
+      &:hover {
+        transform: scale(1.03);
+      }
+    }
+
+    .ct-coach-image{
+      cursor: pointer;
+      width: 90px;
+      height: 75px;
+    }
+    .ct-coach-modal-image{
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      vertical-align: middle;
+    }
+    .ct-modal-name{
+      font-size: 15px;
+      color: $black;
+      font-weight: 400;
+      text-decoration: none;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      display: block;
+      cursor: pointer;
+    }
+    .ct-title-input{
+      background-color: $white !important;
+    }
+    .ct-title-input:focus{
+      outline: none !important;
+      border-color:  $outrageousorange;
+      box-shadow: 0 0 10px $lightsalmon;
+    }
+    .ct-check-input:checked{
+      background-color:  $outrageousorange !important;
+      border: 1;
+    }
+    .ct-modal-star-margin{
+      margin-top: 15px;
+    }
+    .ct-modal-comment{
+      height: 100px !important;
+      box-sizing: border-box;
+    }
+.ct-check-input:focus, .label::after, .label.ct-check-input:focus, .ct-check-input:checked::after, .ct-check-input:not(:disabled):not(.disabled):active:focus {
+  color:  $outrageousorange;
+  outline: 0;
+  border: 0;
+  box-shadow: 0 0 0 .1rem  $lightsalmon !important;
+}
+.ct-publish-button{
+  background-image: linear-gradient(
+        0deg,
+        $outrageousorange 0%,
+        $lightsalmon 100%,
+    );
+  color:$white;
+  border-radius: 5px;
+  margin: 1px 3px 2px 5px;
+  height: 37px;
+border: 1px solid $outrageousorange !important;
+box-shadow: 0 0 10px rgb(163, 163, 154);
+&:hover {
+  transform: scale(1.03);
+}
+}
+.ct-btn-text{
+  font-weight: 500;
+  font-size: 15px;
+  font-family: "Heebo", sans-serif;
+  bottom: 2px;
+  position: relative;
+}

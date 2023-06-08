@@ -1,0 +1,48 @@
+@import "../../../../styles/sass/index.scss";
+
+.ww-jb-profile-tab-container {
+  margin-top: 10px;
+}
+.ww-jb-card {
+    border: none !important;
+}
+.ww-jb-tab-headers {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: $white !important;
+  color: $black !important;
+  border-bottom: none !important;
+  &:hover,
+  &:active {
+    background-color: $white !important;
+  }
+}
+.ww-jb-profile-nav-tabs {
+  font-stretch: ultra-expanded;
+  border: none !important;
+  color: $davysgrey;
+  opacity: 0.8;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: $dmSans;
+  text-transform: uppercase;
+  &:hover {
+    font-stretch: ultra-expanded;
+    border-bottom: solid 1px $black !important;
+    color: $black !important;
+    opacity: 1;
+  }
+}
+.ww-jb-profile-nav-tabs.active {
+  font-stretch: ultra-expanded;
+  border-bottom: solid 1px $black !important;
+  color: $black !important;
+  opacity: 1;
+}
+@media only screen and (max-width: 500px) { 
+  .ww-jb-profile-tab-container {
+    margin-top: 60px;
+  }
+}

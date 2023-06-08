@@ -1,0 +1,85 @@
+@import '../../../../styles/sass/index.scss';
+
+.know-wenex-bg {
+  background: linear-gradient(25deg, $blackcurrant, $christalle);
+  max-width: 100% !important;
+}
+
+.text-lite-header-know-wnx {
+  color: $tangerineyellow !important;
+}
+
+.text-wrap {
+  white-space: normal !important;
+  line-height: 35px;
+}
+
+.wx-btn-filled {
+  width: 50%;
+  color: $darkgreen;
+  display: inline !important;
+  background-image: linear-gradient(0deg, $tangerineyellow 0%, $lemonchiffon 100%);
+  color: $blackpearl;
+  border: 1px solid transparent;
+  border-radius: 5px !important;
+  padding: 10px 5px 10px 10px !important;
+}
+.wx-btn-filled:focus{
+  outline: none;
+  box-shadow:none !important;
+}
+.wx-btn-filled:hover {
+  color: $blackpearl;
+}
+
+.wx-email-register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.squares {
+  animation: move-left-right 1s infinite;
+  background: $sinbad;
+  background: -webkit-linear-gradient(0deg, $sinbad 0%, $chetwodeblue 100%);
+  background: -o-linear-gradient(0deg, $sinbad 0%, $chetwodeblue 100%);
+  background: -moz-linear-gradient(0deg, $sinbad 0%, $chetwodeblue 100%);
+  background: linear-gradient(0deg, $sinbad 0%, $chetwodeblue 100%);
+  position: absolute;
+  transition: 0.5s ease-out;
+  overflow: hidden;
+  border-radius: 20%;
+}
+
+.squares.square1 {
+  animation: move-left-right 6s infinite;
+  height: 250px;
+  width: 250px;
+  opacity: 0.1;
+  left: 32%;
+  bottom: 29%;
+}
+
+.squares.square2 {
+  animation: move-left-right 3s infinite;
+  width: 300px;
+  height: 300px;
+  right: -0%;
+  bottom: 0%;
+  opacity: 0.1;
+}
+
+.squares.square3 {
+  animation: move-left-right 3s infinite;
+  width: 250px;
+  height: 250px;
+  left: -5%;
+  bottom: 10%;
+  opacity: 0.1;
+}
+
+@media screen and (max-width: 960px) {
+  .squares {
+    display: none;
+  }
+}

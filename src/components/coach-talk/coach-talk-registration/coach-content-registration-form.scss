@@ -1,0 +1,58 @@
+@import "../../../styles/sass/index.scss";
+
+.form-row-top {
+    margin: 20px 0 10px 0;
+}
+.ct-background-color{
+    background-color: transparent !important;
+    backdrop-filter: blur(3px);
+    width:100%;
+}
+.ct-background-color:focus{
+    outline: none !important;
+      border-color:  #f57745;
+      box-shadow: 0 0 10px #e9a286;
+}
+.coach-register-heading{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+.ct-label{
+color:$black;
+font-size :18px;
+
+
+}
+.ct-coach-Registration-image{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+.ct-coach-form-image{
+margin-right: 20px;
+margin-bottom: 20px !important;
+    vertical-align: left;
+    float: right;
+}
+.ct-form-submit-button {
+    background-image: linear-gradient(
+        0deg,
+        $outrageousorange 0%,
+        $lightsalmon 100%,
+    );
+    float:right;
+      color: $white;
+      border-radius: 3px;
+      margin: 1px 3px 2px 5px;
+      height: 37px;
+      // width: 100%;
+      box-shadow: 0 0 10px rgb(163, 163, 154);
+      transition: transform 0.2s;
+      &:hover {
+        transform: scale(1.03);
+      }
+    }
+
+

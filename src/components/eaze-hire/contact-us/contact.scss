@@ -1,0 +1,54 @@
+@import '../../../styles/sass/index.scss';
+
+.contact-container-eh{
+    max-width: 100% !important;
+    margin-top: 20px;
+    padding: 100px 1px 0px 10px !important;
+    background: $mintcream;
+    min-height: 110vh;
+    height:auto;
+}
+.eh-contact-outer
+{ 
+  position: static;
+}
+.eh-contact-inner
+{
+  width: 50%; 
+  height: auto;
+  position: absolute;
+  opacity: 0.05;
+}
+.text-lite-header{
+    color: $rust !important;
+}
+.eh-input-contact{
+    margin:10px;
+    border-radius: 3px;
+    min-height: 50px;
+}
+.eh-contact-center {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.eh-contact-btn-filled {
+    width: 100%;
+    margin:10px;
+    display: inline !important;
+    background-image: linear-gradient(0deg, $tangerineyellow 0%, $lemonchiffon 100%);
+    color: $blackpearl;
+    border: 1px solid transparent;
+    border-radius: 5px !important;
+    padding: 10px 5px 10px 10px !important;
+  }
+
+  .eh-contact-btn-filled:focus{
+    outline: none;
+    box-shadow:none !important;
+  }
+
+  
+.eh-contact-btn-filled:hover {
+    color: $blackpearl;
+  }

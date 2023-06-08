@@ -1,0 +1,52 @@
+@import "../../styles/sass/index.scss";
+
+.job-container {
+  max-width: 100% !important;
+  padding: 10px;
+  background-color: $white;
+  min-height: 110vh;
+  height:auto;
+}
+.card-jobs-col{
+  overflow: scroll !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+.card-filter-col {
+  margin-top: 70px !important;
+}
+.jb-footer {
+  width: 100% !important;
+  //position: fixed !important;
+  clear:both;
+  position:relative;
+  bottom:0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  background: $white !important;
+}
+.jb-btn-icon {
+  background: transparent !important;
+  margin: 2px;
+  color: $codgray !important;
+}
+.jb-copyright {
+  @include flex-center;
+  font-size: 13px;
+  color: $codgray;
+}
+.jb-company-data{
+  font-size: 15px;
+  text-decoration: none;
+  color: $endeavour !important;
+}
+.jb-centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+.jb-text-no-found{
+  color: $rust;
+}

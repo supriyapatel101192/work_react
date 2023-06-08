@@ -1,0 +1,197 @@
+@import "../../../../styles/sass/index.scss";
+
+.calendar-container {
+  margin-top: 100px;
+  padding: 10px;
+}
+.fc .fc-prevMonth-button,
+.fc .fc-nextMonth-button {
+  color: green !important;
+}
+.fc-day-today {
+  background-color: $cccalendartoday !important
+}
+
+.fc-button {
+  display: inline-block;
+  font-weight: 200;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  user-select: none;
+  background: linear-gradient(
+    10deg,
+    $easternblue 0%,
+    $greenvogue 100%
+  ) !important;
+  border: 1px solid $white !important;
+  padding: 0.4em 0.65em;
+  color: $white !important;
+  font-size: 16px !important;
+  line-height: 1.5;
+  border-radius: 0.25em;
+}
+
+.fc-button:hover {
+  text-decoration: none;
+}
+
+.fc-button:focus {
+  outline: 0;
+  box-shadow: none !important;
+  color: $blackpearl !important;
+  background: linear-gradient(
+    0deg,
+    $tara 0%,
+    $tusk 100%
+  ) !important;
+}
+
+.fc-button:disabled {
+  opacity: 0.95;
+  background: linear-gradient(
+    0deg,
+    $tara 0%,
+    $tusk 100%
+  ) !important;
+  color: $blackpearl !important;
+}
+.fc-toolbar-title {
+  font-size: 20px !important;
+}
+.fc .fc-timegrid-divider {
+  padding: 1px 0 10px !important;
+  background: $white !important;
+  border: 1px solid transparent !important;
+}
+.fc-theme-standard {
+  & a {
+    color: $blackpearl !important;
+  }
+  & td {
+    border: .009rem solid $oasis !important;
+    // padding: 1px 1px !important;
+  }
+  & th {
+    border: 0px solid $oasis !important;
+    // padding: 1px 1px !important;
+  }
+  & table {
+    border: 1px solid transparent !important;
+    // padding: 0 !important;
+    // background: rgb(246, 253, 246) !important;
+  }
+}
+.tippy-box[data-theme~='cal-desc'] {
+  background: $blackpearl;
+  color: $white;
+  min-width: 200px !important;
+  border-radius:3px; 
+  padding-left: 10px; 
+  padding-right: 10px
+}
+
+.tippy-box[data-theme~='cal-title'] {
+  background: $blackpearl;
+  color: $white;
+  border-radius:5px;
+  padding: 15px;
+  word-wrap: break-word;
+}
+
+.tippy-box[data-theme~='cal-title'] > .tippy-svg-arrow > svg:last-child {
+  fill: $coral;
+  margin: 1px 1px !important;
+  border-width: 12px 12px 0;
+  border-top-color: tomato;
+}
+
+.tippy-box[data-theme~='cal-desc'] > .tippy-svg-arrow > svg:last-child {
+  fill: $coral;
+  margin: 1px 1px !important;
+  border-width: 12px 12px 0;
+  border-top-color: tomato;
+}
+
+// .meet-title {
+//   display: inline-block;
+//   width: 180px;
+//   white-space: nowrap;
+//   overflow: hidden !important;
+//   text-overflow: ellipsis;
+//   color:#FFFFFF; 
+//   font-family:verdana; 
+//   font-size:14px; 
+//   font-weight:100
+// }
+#meet-title {
+  display: inline-block;
+  width: 180px;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  color:#FFFFFF; 
+  font-family:verdana; 
+  font-size:14px; 
+  font-weight:100;
+  cursor: pointer;
+}
+
+#meet-title:hover{
+  overflow: visible; 
+  white-space: normal; 
+  color:#FFFFFF; 
+  font-family:verdana; 
+  font-size:14px; 
+  font-weight:100
+}
+#meet-title:hover+div {
+  margin-top:20px;
+}
+
+.meet-date {
+  color:#FFFFFF; 
+  font-family:verdana; 
+  font-size:12px; 
+  font-weight:100
+}
+.meet-time {
+  color:#FFFFFF; 
+  font-family:verdana; 
+  font-size:11px; 
+  font-weight:100
+}
+.meet-button{
+  background-color:white; 
+  cursor: pointer; 
+  border: 1px solid transparent; 
+  border-radius: 2px; 
+  border: none; 
+  color: #091d29; 
+  padding: 7px 7px;
+}
+.meet-button:hover{
+  background-color:$tara; 
+}
+.meet-hr{
+  text-align: center; 
+  border:.002rem solid #a9b0a9;
+}
+.meet-align-center{
+  text-align: center; 
+  margin-top:10px; 
+  margin-bottom:10px;
+}
+.meet-organizer-title{
+  margin: 5px; color:#FFFFFF; 
+  font-family:verdana; 
+  font-size:14px; 
+  font-weight:100
+}
+.meet-organizer-sub-title{
+  margin: 0; 
+  color:#f7e5e5; 
+  font-family:verdana; 
+  font-size:10px; 
+  font-weight:100
+}

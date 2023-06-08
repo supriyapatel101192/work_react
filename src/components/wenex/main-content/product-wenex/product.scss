@@ -1,0 +1,82 @@
+@import '../../../../styles/sass/index.scss';
+
+.product-bg {
+    // background: $lemonchiffon !important;
+    max-width: 100% !important;
+    // background: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)), url("../../../../../public/images/common/brand-about.png");
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+    background-position: right;
+}
+
+.align-product-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // opacity: .94 !important;
+}
+
+.text-product{
+    font-size: 16px !important;
+    font-weight: 100 !important;
+    color: $blackpearl;
+}
+.text-header-product-eh{
+    color: $emerald;
+}
+.tab-product-text{
+    color: $bayofmany;
+}
+.tab-product-text-sec{
+    color: $robineggblue !important;
+}
+.margin-tab-data{
+    padding: 2rem;
+}
+.all-eh-bg {
+    background-color: $whisper !important;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+}
+.all-cc-bg {
+    // background-color: $perano !important;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+}
+.all-ct-bg {
+    background-color: $isabelline !important;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+}
+.all-wt-bg {
+    // background-color: $sinbad !important;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+}
+.card-wnx-product {
+    background: $mintcream;
+    border: 0;
+    border-width: 2px !important;
+    position: relative;
+    width: 100%;
+    margin-bottom: 3px;
+    box-shadow: 0 1px 20px 0px rgba(10, 0, 10, 0.2);
+    height: 380px;
+    scroll-behavior: smooth;
+    overflow: scroll;
+  }
+.card-header-product{
+    background: transparent !important;
+    border: 0;
+}
+
+.wx-prod-icon-link {
+  color: $tangerineyellow;
+  margin-right: 7px;
+  font-size: .70em;
+  margin-bottom: 1px
+}

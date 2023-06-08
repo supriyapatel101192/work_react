@@ -1,0 +1,47 @@
+@import "../../../../../styles/sass/index.scss";
+
+.ww-abtme-title {
+  font-size: 18px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-family: $dmSans;
+  color: black;
+}
+.ww-abtme-content {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  word-spacing: 4px;
+  font-family: $dmSans;
+  color: $davysgrey;
+  opacity: 0.8;
+}
+.ww-abtme-pi {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-family: $dmSans;
+  color: $blackpearl;
+  opacity: 0.9;
+}
+.ww-skill-margin {
+  margin-top: 10px;
+}
+.ww-abtme-skils {
+  margin: 2px;
+  padding: 5px 15px 5px 15px;
+  border-radius: 4px;
+  background: $geyser;
+  color: $black;
+  font-size: 14px;
+  font-weight: bolder;
+  word-spacing: 4px;
+  font-family: $dmSans;
+  cursor: pointer;
+  &:hover {
+    background: $black;
+    color: $white;
+  }
+}

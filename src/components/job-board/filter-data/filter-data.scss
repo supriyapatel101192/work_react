@@ -1,0 +1,129 @@
+@import "../../../styles/sass/index.scss";
+
+.card-filter {
+  background-color: $white;
+  padding: 13px 0px 13px 20px !important;
+  max-height: 100% !important;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  margin-left: 5px;
+  display: flex;
+}
+@mixin filter-text {
+  font-family: $dmSans;
+  color: $black;
+}
+.filter-heading {
+  @include filter-text;
+  margin-left: 5px !important;
+  font-weight: 550;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.filter-sub-heading {
+  @include filter-text;
+  font-weight: 550;
+  font-size: 14px;
+}
+.accordian-item {
+  border: none !important;
+  margin-top: 5px;
+  outline: 0;
+  background: $white;
+  border-radius: 8px !important;
+  border: none;
+}
+.accordian-item button {
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  background-color: $white;
+  transition: transform 0.5s;
+  border: 1px solid $gainsboro !important;
+  &:hover {
+    border: 1px solid $tangerineyellow !important;
+    background-color: $white;
+    transform: scale(1.01);
+  }
+  &:not(.collapsed) {
+    border: 1px solid $tangerineyellow !important;
+    background-color: $white;
+  }
+}
+.checkbox-label {
+  @include filter-text;
+  margin-left: 5px !important;
+  font-weight: 500;
+  font-size: 15px;
+}
+.filter-button {
+  background-color: $tangerineyellow !important;
+  border: 1px solid $tangerineyellow !important;
+  height: 30px;
+  &:focus {
+    outline: 0;
+    box-shadow: none !important;
+  }
+  margin-left: 80px;
+}
+.filter-check-input:checked {
+  background-color: $tangerineyellow !important;
+  border: 0 !important;
+}
+.filter-check-input:focus,
+.filter-check-input::after,
+.filter-check-input:not(:disabled):not(.disabled):active:focus {
+  color: $black;
+  outline: 0;
+  border: 0;
+  box-shadow: 0 0 0 0.1rem $tangerineyellow !important;
+}
+.filter-cross {
+  height: 20px;
+  &:focus {
+    outline: 0;
+    box-shadow: none !important;
+  }
+  cursor: pointer;
+  color: $tangerineyellow !important;
+}
+
+.filter-cross-left{
+  flex: 85%;
+  float: left;
+  text-align: start;
+}
+.filter-cross-right{
+  flex: 15%;
+  float: right;
+  text-align: center;
+}
+.accordian-style {
+  scroll-behavior: smooth;
+  overflow: scroll;
+  min-height: 200px !important;
+  max-height: 525px !important;
+  padding: 0px 5px 0px 5px !important;
+}
+.sidebar {
+  min-width: 20%;
+  max-width: 380px;
+  margin-left: -290px;
+  transition: all 0.5s;
+  border-radius: 2px;
+  padding: 5px 5px 20px 5px;
+  background: white;
+  box-shadow: 0 1px 20px 0px rgba(10, 0, 10, 0.2);
+}
+.sidebar.is-open {
+  margin-left: 0;
+  transition: 0.5s;
+}
+@media only screen and (max-width: 500px) {
+  .sidebar.is-open {
+    min-width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    transition: all 0.5s, height 0s;
+  }
+}

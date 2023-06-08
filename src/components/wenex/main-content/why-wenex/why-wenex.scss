@@ -1,0 +1,96 @@
+@import '../../../../styles/sass/index.scss';
+
+.text-why-wenex-grey{
+    color: $bayofmany;
+}
+
+.why-wenex-bg {
+    margin-top: 1rem;
+    padding-bottom: 3rem !important;
+    max-width: 100% !important;
+}
+.align-why-wenex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wx-num-about {
+  line-height: 0.15em !important;
+  margin-bottom: 1px !important;
+}
+
+.text-on-back-about-01 {
+    position: relative;
+    z-index: 1;
+    font-size: 9.5em;
+    margin-left: -4px;
+    font-weight: 900;
+    opacity: .2;
+    color: $orange !important;
+}
+.text-why-wnx-01{
+    color: $orange;
+}
+
+.text-on-back-about-02 {
+    position: relative;
+    z-index: 1;
+    font-size: 9.5em;
+    margin-left: -4px;
+    font-weight: 900;
+    opacity: .2;
+    color: $endeavour !important;
+}
+.text-why-wnx-02{
+    color: $endeavour;
+}
+
+.text-on-back-about-03 {
+    position: relative;
+    z-index: 1;
+    font-size: 9.5em;
+    margin-left: -4px;
+    font-weight: 900;
+    opacity: .2;
+    color: $eucalyptus !important;
+}
+.text-why-wnx-03{
+    color: $eucalyptus;
+}
+.text-on-back-about-04 {
+    position: relative;
+    z-index: 1;
+    font-size: 9.5em;
+    margin-left: -4px;
+    font-weight: 900;
+    opacity: .2;
+    color: $freespeechmagneta !important;
+}
+.text-why-wnx-04{
+    color: $freespeechmagneta;
+}
+.text-on-back-about-05 {
+    position: relative;
+    z-index: 1;
+    font-size: 9.5em;
+    margin-left: -4px;
+    font-weight: 900;
+    opacity: .2;
+    color: $tuliptree !important;
+}
+.text-why-wnx-05{
+    color: $tuliptree;
+}
+.text-on-back-about-06 {
+    position: relative;
+    z-index: 1;
+    font-size: 9.5em;
+    margin-left: -4px;
+    font-weight: 900;
+    opacity: .2;
+    color: $rust !important;
+}
+.text-why-wnx-06{
+    color: $rust;
+}

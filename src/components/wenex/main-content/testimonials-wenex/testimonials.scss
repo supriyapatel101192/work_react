@@ -1,0 +1,48 @@
+@import '../../../../styles/sass/index.scss';
+
+.testimonials-bg {
+    margin-top: 7rem;
+    padding-bottom: 3rem !important;
+    background: $lightcayan;
+    max-width: 100% !important;
+}
+.text-testimonials-grey{
+    color: $bayofmany;
+}
+
+.testimonials-outer
+{ 
+  position: static;
+}
+.testimonials-inner
+{
+  width: 50%; 
+  height: auto;
+  position: absolute;
+  opacity: 0.05;
+}
+.align-testimonials-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-testimonials-header{
+    color: $resolutionblue;
+}
+.custom-tag1 {
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.center-testimonial-card {
+    height: 400px;
+    padding: 7rem;
+    justify-content: center;
+    align-items: center;
+    background: $blackpearl;
+}
+.center-testimonial-caption{
+  margin-top: 10px;
+}
+

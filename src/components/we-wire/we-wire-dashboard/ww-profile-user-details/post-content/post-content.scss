@@ -1,0 +1,163 @@
+@import "../../../../../styles/sass/index.scss";
+
+.post-input {
+  height: 75px;
+  font-weight: 400;
+  margin: 15px 0;
+  background: $white;
+  border: 1px solid $geyser;
+  border-radius: 8px;
+  color: $davysgrey;
+  opacity: 0.8;
+  font-size: 15px;
+  word-spacing: 1px;
+  font-family: $dmSans;
+  &:focus {
+    border: 1px solid $black;
+    box-shadow: none !important;
+    color: $davysgrey;
+    opacity: 0.8;
+  }
+}
+.ww-post-btn {
+  padding: 15px;
+  background: $black;
+  border: 1px solid $black !important;
+  border-radius: 8px;
+  box-shadow: none !important;
+  color: $white !important;
+  font-family: $dmSans;
+  font-weight: bolder;
+  font-size: 18px;
+  &:focus,
+  &:active,
+  &:hover {
+    background: $black;
+    outline: 0;
+    box-shadow: none !important;
+  }
+}
+.ww-usr-post-cam {
+  padding: 22px 16px 22px 16px;
+  border-radius: 8px;
+  background: $geyser;
+  color: $black;
+  cursor: pointer;
+  &:hover {
+    background: $black;
+    color: $white;
+  }
+}
+.ww-usr-post-clip {
+  padding: 22px 16px 22px 16px;
+  border-radius: 8px;
+  background: $geyser;
+  color: $black;
+  cursor: pointer;
+  &:hover {
+    background: $black;
+    color: $white;
+  }
+}
+.ww-shared-posts {
+  margin-top: 20px;
+}
+.ww-usr-post-title {
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-family: $dmSans;
+  color: $davysgrey;
+}
+.ww-usr-post-content {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  word-spacing: 4px;
+  font-family: $dmSans;
+  color: $davysgrey;
+  opacity: 0.8;
+}
+.ww-post-like-btn {
+  padding: 14px 18px 14px 18px;
+  background: $black;
+  border: 1px solid $black !important;
+  border-radius: 8px;
+  box-shadow: none !important;
+  color: $white !important;
+  font-family: $dmSans;
+  font-weight: bolder;
+  font-size: 18px;
+  margin-right: 10px;
+  &:focus,
+  &:active,
+  &:hover {
+    background: $black;
+    outline: 0;
+    box-shadow: none !important;
+  }
+}
+.ww-post-reply-btn {
+  padding: 14px 18px 14px 18px;
+  background: $tangerineyellow;
+  border: 1px solid $black !important;
+  border-radius: 8px;
+  box-shadow: none !important;
+  color: $black !important;
+  font-family: $dmSans;
+  font-weight: bolder;
+  font-size: 18px;
+  margin-right: 10px;
+  &:focus,
+  &:active,
+  &:hover {
+    background: $tangerineyellow;
+    outline: 0;
+    box-shadow: none !important;
+  }
+}
+.ww-like-icon {
+  margin-right: 10px;
+}
+@media only screen and (max-width: 500px) {
+  .ww-post-like-btn {
+    padding: 14px 18px 14px 18px;
+    background: $black;
+    border: 1px solid $black !important;
+    border-radius: 8px;
+    box-shadow: none !important;
+    color: $white !important;
+    font-family: $dmSans;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 10px;
+    &:focus,
+    &:active,
+    &:hover {
+      background: $black;
+      outline: 0;
+      box-shadow: none !important;
+    }
+  }
+  .ww-post-reply-btn {
+    padding: 14px 18px 14px 18px;
+    background: $tangerineyellow;
+    border: 1px solid $black !important;
+    border-radius: 8px;
+    box-shadow: none !important;
+    color: $black !important;
+    font-family: $dmSans;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 10px;
+    &:focus,
+    &:active,
+    &:hover {
+      background: $tangerineyellow;
+      outline: 0;
+      box-shadow: none !important;
+    }
+  }
+}

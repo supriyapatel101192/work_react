@@ -1,0 +1,78 @@
+@import '../../../styles/sass/index.scss';
+
+.contact-bg {
+    margin-top: 7rem;
+    padding-bottom: 3rem !important;
+    background: $cultured;
+    max-width: 100% !important;
+}
+.text-about-grey{
+    color: $bayofmany;
+}
+
+.wnx-contact-outer
+{ 
+  position: static;
+}
+.wnx-contact-inner
+{
+  width: 50%; 
+  height: auto;
+  position: absolute;
+  opacity: 0.05;
+}
+.wnx-contact-us-img{
+  height: 200px !important;
+  opacity: 0.95;
+  border: 1px solid transparent !important;
+  border-radius: 5px;
+}
+.text-contact-header{
+    color: $orange;
+}
+.contact-text-grey{
+    color: $blackpearl !important;
+}
+.wnx-contact-card{
+  background: $chetwodeblue !important;
+  padding: 4rem 1.5rem 4rem 1.5rem;
+  border-radius: 5px;
+}
+.wnx-contact-center {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.btn-contact-filled {
+    width: 60%;
+    display: inline !important;
+    background-image: linear-gradient(0deg, $tangerineyellow 0%, $lemonchiffon 100%);
+    color: $blackpearl;
+    border: 1px solid transparent;
+    border-radius: 5px !important;
+    padding: 10px 5px 10px 10px !important;
+  }
+  .btn-contact-filled:focus{
+    outline: none;
+    box-shadow:none !important;
+  }
+  .btn-contact-filled:hover {
+    color: $blackpearl;
+  }
+
+.wx-input-contact {
+  font-size: 16px !important;
+  margin-right: 0px;
+  border: 1px solid $zumthor !important;
+  border-radius: 2px !important;
+  background-color: $white;
+}
+
+.wx-input-contact:hover {
+  border: 1px solid $sinbad !important;
+}
+
+.wx-input-contact:focus {
+  border-color: $robineggblue !important;
+  box-shadow: none !important;
+}

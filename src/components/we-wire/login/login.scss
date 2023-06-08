@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo');
+@import '../../../styles/sass/index.scss';
+
+.login-container-wnx {
+    margin-top: 80px;
+    max-width: 100% !important;
+    padding-bottom: 25px;
+    background-color: $aliceblue;
+    min-height: 80vh;
+    height:auto;
+}
+.wx-show-hide-icon {
+   padding-left: 20px;
+   width: 60px;
+   background: none; 
+   border-left: none;
+   border: 1px solid $silver !important;
+    &:focus, &:hover {
+        border-color: $silver !important;
+        box-shadow: none !important;
+    }
+}
+// .wnx-login-card {
+//     -webkit-box-shadow: 0px 0px 6px 5px $whisper;
+//     -moz-box-shadow: 0px 0px 6px 5px $whisper;
+//     box-shadow: 0px 0px 6px 5px $whisper;
+//     margin: 0 !important;
+// }
+.wnx-login-row-left {
+    background: linear-gradient(25deg, $shadessalmon, $christalle);
+}
+.align-center-login-wnx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.align-center-login-otp-wnx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .5rem;
+}
+.wnx-login-img {
+    width: 250px;
+    height: auto !important;
+    opacity: 0.91 !important;
+    border: 1px solid transparent !important;
+    border-radius: 5px;
+}
+.col-sm-4 {
+	float: right !important;
+}
+
+.card-login-header-wnx{
+    background: transparent;
+    border: 1px solid transparent;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.card-login-header-wnx:hover{
+    background: transparent !important;
+}
+.margin-login-header{
+    text-align: center;
+}
+.hr-align{
+    color: $gainsboro !important;
+}
+
+.text-login-blue {
+    color: $davysgrey !important;
+    text-decoration: none !important;
+    margin-left: 5px !important;
+  }
+
+.text-login-blue:hover {
+    color: $coral !important;
+    font-style:normal;
+}
+
+// .input-group-login {
+//     border: 1px solid transparent !important;
+//     border-radius: 5px;
+//     box-shadow: 0 1px 20px 0px #0a000a33;
+// }
+
+.input-login-margin1{
+    padding: 5px;
+}
+
+ .input-group-login-det-wx {
+    border: 1px solid $silver !important;
+    border-radius: 5px !important;
+    height: 65px !important;
+    &:focus, &:hover {
+        box-shadow: none !important;
+    }
+}   
+.input-group-pass-det-wx {
+    border: 1px solid $silver !important;
+    border-right: none !important; 
+    border-radius: 5px 0 0 5px !important;
+    height: 65px !important;
+    &:focus, &:hover {
+        box-shadow: none !important;
+    }
+}
+
+.input-group-login-text {
+    border: 1px solid transparent !important;
+}
+.text-login-header{
+    color: $resolutionblue !important;
+}
+.login-img-header-wnx{
+    height: 80px;
+    width: 200px;
+}
+.text-we-wire1{
+    color: $rust !important;
+    font-size: 24px;
+}
+.text-we-wire2{
+    color: $christalle !important;
+    font-size: 24px;
+}
+.wx-btn-filled-login {
+    width: 100%;
+    display: inline !important;
+    color: $blackpearl !important;
+    background-image: linear-gradient(0deg, $tangerineyellow 0%, $lemonchiffon 100%);
+    border-radius: 5px !important;
+    padding: 15px 5px 15px 10px !important;
+}
+.wx-btn-filled-login:focus{
+    outline: none;
+    box-shadow:none !important;
+}
+
+.text-right-login{
+    display: flex;
+    justify-content: flex-end;
+}
+.text-muted:hover {
+    color: $coral !important;
+}
+
+.head-col-bg-img {
+    background-color: $ivory;
+    transition: all 200ms ease;
+    background-position: 0px 100%;
+    width: 41.66666667%;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+.head-col-bg-form {
+    transition: all 200ms ease;
+    background-position: 0px 100%;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 960px) {
+    .head-col-bg-img {
+        width: 100% !important;
+        position: relative;
+    }
+    .head-col-bg-form {
+        width: 100% !important;
+        position: relative;
+    }
+}
+.head-col-bg-text{
+    background: $darkgreen;
+}
+.text-welcome{
+    color: $bluediamond;
+}
+.text-lite-grey{
+    color: $suvagrey;
+}
+.cover-footer {
+    bottom: 0;
+    padding: 50px;
+    align-self: stretch;
+    text-align: right;
+    transform: translate(0px, 90%);
+}
+// .cover-image-center-wrapper {
+//     display: block;
+//     margin-right: auto;
+//     margin-left: auto;
+//     padding-right: 48px;
+//     padding-left: 48px;
+//     transform: translate(0px, 40%);
+//     transition: all 200ms ease;
+//     text-align: center;
+// }
+
+.cover-image-center-wrapper1{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+// .ww-login-otp-pwd-toggle-btn {
+//     // border: 1px solid $silver !important;
+//     // border-radius: 25px !important;
+//     // height: 20px !important;
+//     // width: 38px !important;
+//     display: flex;
+//     align-items: center;
+//     margin: 1em 0 0 1em;
+//     span {
+//       font-family: sans-serif;
+//       font-weight: 700;
+//       letter-spacing: 1px;
+//       transition: color .4s cubic-bezier(.7, 0, .7, 1);
+//     }
+// }
+
+.wnx-form-check-input:checked{
+    background-color: $tangerineyellow !important;
+    border: 1;
+ }
+ .wnx-form-check-input:focus, .label::after, label.form-check-label:focus, .wnx-form-check-input::after, .wnx-form-check-input:not(:disabled):not(.disabled):active:focus {
+    color: $blackpearl;
+    outline: 0;
+    border: 0;
+    box-shadow: 0 0 0 .1rem $tangerineyellow !important;
+ }
+.ww-login-otp-pwd-toggle-btn:focus {
+    border-color: $suvagrey !important;
+    box-shadow: none !important;
+}
+
+.ww-login-otp-pwd-toggle-btn:hover {
+    border-color: $suvagrey !important;
+    box-shadow: none !important;
+}
+.wnx-text-otp-false-grey{
+    color: $suvagrey;
+    font-size: 14px;
+    margin-top: 2px;
+}
+.wnx-text-otp-true-wx{
+    color: $bayofmany;
+    font-size: 14px;
+    margin-top: 2px;
+}
+.wnx-text-otp-send-email-wx{
+    color: $bayofmany;
+    font-size: 16px;
+}
+.text-otp-no-email-wx{
+    color: $salem;
+}
+.text-otp-no-email-wx:hover {
+    color: $bayofmany;
+}
+.wx-text-login-row{
+    clear: both;
+}
+.wx-text-left-login{
+    float: left;
+    width: 100%;
+}
+.wx-text-right-login{
+    float: right;
+}

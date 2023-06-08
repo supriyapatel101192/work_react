@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo');
+@import '../../../styles/sass/index.scss';
+
+
+@keyframes move-left-right {
+  0% {
+    transform: translateY(-10px);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+  // --nav-bg-wnx : #7077b9;
+  // --nav-bg-wnx-dark : #182596;
+
+.cc-container {
+  max-width: 100% !important;
+  padding: 100px 0 0 0 !important;
+  background: $mintcream;
+  min-height: 110vh;
+  height:auto;
+}
+
+.cc-footer {
+  width: 100% !important;
+  clear:both;
+  position:relative;
+  top: 0;
+  z-index: 1030;
+  background: $gainsborolight !important;
+}
+.cc-copyright {
+  @include flex-center;
+  font-size: 13px;
+  color: $raisinblack;
+}

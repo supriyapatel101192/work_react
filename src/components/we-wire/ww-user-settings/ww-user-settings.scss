@@ -1,0 +1,63 @@
+@import  '../../../styles/sass/index.scss';
+
+.ww-user-settings-container {
+    margin-top: 50px; 
+}
+.ww-user-settings-labels {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.ww-user-settings-input-group {
+  border: 1px thin $silver !important;
+  border-radius: none !important;
+  height: 55px !important;
+   &:hover, &:focus {
+        border-color: $suvagrey !important;
+        box-shadow: none !important;
+    }
+}
+.ww-user-settings-dob {
+  width: 100%;
+  padding: 13px;
+  border: 1px thin $silver !important;
+}
+.ww-user-settings-gender {
+    &:checked {
+        background-color: $tangerineyellow !important;  
+        border-color: $tangerineyellow !important; 
+        box-shadow: none !important; 
+    }
+}
+.ww-user-settings-gender-label {
+  font-size: 16px;
+  font-weight: bold;
+   padding: 10px 20px 10px 0px;
+}
+.ww-user-settings-save-btn {
+  width: 100%;
+  font-size: 13px;
+  font-weight: 600;
+  display: inline !important;
+  background-image: linear-gradient(
+    0deg,
+    $tangerineyellow 0%,
+    $lemonchiffon 100%
+  );
+  color: $blackpearl;
+  border-radius: 5px !important;
+  padding: 15px 5px 15px 10px !important;
+  &:focus {
+    outline: 0;
+    box-shadow: none !important;
+  }
+  &:hover {
+    color: $blackpearl; 
+  }
+}
+.ww-user-setting-input-group-text {
+  font-size: 16px !important;
+  margin-right: 0px;
+  border: 1px solid $silver !important;
+  border-radius: 5px 1px 1px 5px !important;
+  background-color: $white;
+}

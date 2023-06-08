@@ -1,0 +1,329 @@
+@import '../../../styles/sass/index.scss';
+
+.cc-register-container{
+    margin-top: 60px !important;
+    text-align: center;
+    background-color: $mintcream;
+}
+.cc-register-container-row{
+    margin-top: 30px !important;
+}
+.cc-register-card-header{
+    background: transparent;
+    border: 1px solid transparent;
+    text-align: center;
+    margin-top: 5px;
+}
+.cc-register-card-header:hover{
+    background: transparent !important;
+}
+.cc-register-card-pointer{
+    cursor: pointer !important;
+}
+.cc-register-card-pointer:hover{
+    background-color: $lemonchiffon;
+    // box-shadow: 0 1px 20px 10px rgba(10, 0, 10, 0.2);
+    // padding: 1px;
+}
+.cc-register-text-welcome{
+    color: $bayofmany;
+}
+.cc-register-text-whatsapp{
+    font-size: 14px;
+    color: $salem;
+}
+.cc-register-text-lite-grey{
+    color: $suvagrey;
+}
+.cc-register-text-lite-blue{
+    color: $bayofmany;
+}
+.cc-register-hr-align{
+    color: $gainsboro;
+}
+.cc-text-register-row{
+    clear: both;
+}
+.cc-text-left-register{
+    float: left;
+}
+.cc-text-right-register{
+    float: right;
+}
+.cc-otp-pwd-register-align{
+    text-align: right;
+}
+.cc-register-align-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cc-register-cover-footer {
+    bottom: 0;
+    padding: 50px;
+    align-self: stretch;
+    text-align: right;
+    transform: translate(0px, 90%);
+}
+.cc-register-head-col-bg-img {
+    background-color: $ivory;
+    transition: all 200ms ease;
+    background-position: 0px 100%;
+    width: 30%;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+.cc-register-head-col-bg-form {
+    transition: all 200ms ease;
+    background-position: 0px 100%;
+    width: 70%;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.register-google {
+    width: calc(100% - 600px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 75px;
+    z-index: 2;
+    border-left: 1px solid $pattensblue;
+    height: 224px;
+    padding-top: 88px;
+}
+.or-field {
+    font-weight: 600;
+    color: #445578;
+    height: 33px;
+    border: 1px solid $pattensblue;
+    padding: 4px 8px;
+    border-radius: 50%;
+    background: $white;
+    margin-left: -20px;
+}
+.register-google-mobile{
+    display: none;
+}
+.register-supporter-mobile{
+    display: none;
+}
+@media screen and (max-width: 960px) {
+    .cc-register-head-col-bg-form {
+        width: 100% !important;
+        position: relative;
+        margin-top: 4rem !important;
+        padding: 1.1rem;
+    }
+    .cc-register-head-col-bg-img {
+        width: 100% !important;
+        position: relative;
+        margin-top: 1px !important;
+        padding: 0 0 3rem 0;
+    }
+    .register-supporter-mobile{
+        display: inline;
+        padding: 10px;
+    }
+    .register-google{
+        display: none;
+    }
+    .register-google-mobile {
+        display: flex;
+        flex-direction: row;
+        padding: 20px 80px 20px 80px;
+    } 
+    .register-google-mobile:before,
+    .register-google-mobile:after {
+        content: "";
+        flex: 1 1;
+        border-bottom: 1px solid $pattensblue;
+        margin: auto;
+    }
+    .or-field-mobile {
+        font-weight: 600;
+        color: #445578;
+        height: 33px;
+        border: 1px solid $pattensblue;
+        padding: 3px 6px;
+        border-radius: 50%;
+        background: #fff;
+        margin-left: -16px;
+    }
+}
+.cc-register-card-container{
+    min-height: 400px;
+    min-width: 300px;
+    border: 1px dashed $whisper;
+}
+.cc-register-card-container-img{
+    width: 230px;
+    height: "auto";
+    text-align: center;
+}
+.cc-register-card-header{
+    background-color: $white;
+}
+.cc-register-text-left{
+    text-align: start;
+}
+.cc-check-icon{
+    color: $salem;
+    margin-right: 5px;
+    font-size: 14px;
+}
+.link-google-sigup-block {
+    width: 150px;
+    text-align: center;
+    margin-top: -10px;
+}
+.social-button-filled {
+    width: 100%;
+    margin-top:10px;
+    display: inline !important;
+    border: 1px solid $silver;
+    border-radius: 30px !important;
+    padding: 10px 20px 10px 20px !important;
+    cursor: pointer;
+  }
+.register-button-social-image{
+    width: 90px;
+    height: "auto";
+}
+
+.register-social-center {
+    text-align: center;
+    margin: 20px 0 10px 10px;
+    padding: 5px;
+}
+
+.input-group-register-det-cc {
+    border: 1px solid $silver !important;
+    border-radius: 5px !important;
+    height: 55px !important;
+}
+
+.input-group-register-det-cc:focus {
+    border-color: $suvagrey !important;
+    box-shadow: none !important;
+}
+
+.input-group-register-det-cc:hover {
+    border-color: $suvagrey !important;
+    box-shadow: none !important;
+}
+.cc-register-input-group-text {
+    font-size: 16px !important;
+    margin-right: 0px;
+    border: 1px solid $silver !important;
+    border-radius: 5px 1px 1px 5px !important;
+    background-color: $white;
+}
+.cc-register-input-group {
+    border: 1px solid $silver !important;
+    border-radius: 1px 5px 5px 1px !important;
+    height: 55px !important;
+}
+
+.cc-register-input-group:focus {
+    border-color: $suvagrey !important;
+    box-shadow: none !important;
+}
+
+.cc-register-input-group:hover {
+    border-color: $suvagrey !important;
+    box-shadow: none !important;
+}
+.cc-register-exp-img{
+    width: 60px;
+    height: "auto";
+}
+.cc-register-exp-btn-filled {
+    width: 100%;
+    display: inline !important;
+    background-image: linear-gradient(0deg, $tangerineyellow 0%, $lemonchiffon 100%);
+    color: $blackpearl;
+    border-radius: 5px !important;
+    padding: 15px 5px 15px 10px !important;
+}
+.cc-register-exp-btn-filled:focus{
+    outline: none;
+    box-shadow:none !important;
+}
+
+.cc-register-exp-btn-filled:hover{
+    color: $blackpearl;
+}
+.cc-icon-green{
+    color: $salem;
+    font-size: 16px;
+}
+.unable-text{
+    color: $davysgrey
+}
+
+.modal.cc-register-modal-primary .modal-content {
+    background-color: $eucalyptus;
+    color: $white;
+  }
+  
+  .modal.modal-mini p {
+    text-align: center;
+  }
+  
+  .cc-register-modal-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2px 2px 0 2px;
+    border-top-left-radius: calc(0.2857rem - 1px);
+    border-top-right-radius: calc(0.2857rem - 1px);
+  }
+  
+  .modal.cc-register-modal-mini .modal-dialog {
+    max-width: 430px;
+    margin: 0 auto;
+  }
+  
+  .cc-register-modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 10px 20px 10px 20px;
+  }
+  
+  .modal.cc-register-modal-mini.show .modal-dialog {
+    -webkit-transform: translate(0, 30%);
+    -o-transform: translate(0, 30%);
+    transform: translate(0, 30%);
+  }
+  
+  .modal.cc-register-modal-mini .modal-footer button {
+    text-transform: uppercase;
+    color: $white;
+  }
+  .modal.cc-register-modal-mini .modal-footer button:first-child {
+    opacity: 0.5;
+  }
+  .btn-neutral-cc-register {
+    font-size: 18px !important;
+    color: $white !important;
+    background-color:  transparent !important;// #00a0dc;
+    // border: 1px solid $white !important;
+    border-radius: 5px;
+  }
+  .btn-neutral-cc-register:hover {
+    color: $white  !important;
+    background-color: transparent !important;// #0077b5;
+    border-color: $whisper !important;
+  }
+  .fab-cc-register{
+    color: $white;
+  }

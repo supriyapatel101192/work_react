@@ -1,0 +1,94 @@
+@import '../../../styles/sass/index.scss';
+
+.wx-register-container{
+    margin-top: 60px !important;
+    text-align: center;
+}
+
+.wx-register-card-header{
+    background: transparent;
+    border: 1px solid transparent;
+    text-align: center;
+    margin-top: 5px;
+}
+.wx-register-card-header:hover{
+    background: transparent !important;
+}
+.wx-register-card-pointer{
+    cursor: pointer !important;
+}
+.wx-register-card-pointer:hover{
+    background-color: $lemonchiffon;
+    box-shadow: 0 1px 20px 10px rgba(10, 0, 10, 0.2);
+    padding: 1px;
+}
+.wx-register-text-welcome{
+    color: $rust;
+}
+.wx-register-text-lite-grey{
+    color: $suvagrey;
+}
+.wx-register-hr-align{
+    color: $gainsboro;
+}
+.wx-register-align-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wx-register-cover-footer {
+    bottom: 0;
+    padding: 50px;
+    align-self: stretch;
+    text-align: right;
+    transform: translate(0px, 90%);
+}
+.wx-register-head-col-bg-img {
+    background-color: $white;
+    transition: all 200ms ease;
+    background-position: 0px 100%;
+    width: 50%;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+.wx-register-head-col-bg-form {
+    transition: all 200ms ease;
+    background-position: 0px 100%;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+    position: absolute;
+    background-color: $isabelline;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+@media screen and (max-width: 960px) {
+    .wx-register-head-col-bg-form {
+        width: 100% !important;
+        position: relative;
+        margin-top: 1px !important;
+        padding: 2rem 0 3rem 0;
+    }
+    .wx-register-head-col-bg-img {
+        width: 100% !important;
+        position: relative;
+        margin-top: 1px !important;
+        padding: 0 0 3rem 0;
+    }
+}
+.register-card-container{
+    min-height: 300px;
+    max-width: 250px;
+}
+.register-card-container-img{
+    width: 230px;
+    height: "auto";
+    text-align: center;
+}
+.register-card-header{
+    background-color: $white;
+}

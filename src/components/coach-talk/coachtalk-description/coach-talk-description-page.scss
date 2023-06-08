@@ -1,0 +1,230 @@
+@import "../../../styles/sass/index.scss";
+
+.coach-page-container{
+    margin-top: 80px;
+  // margin-bottom: 10px;
+  max-width: 100% !important;
+  padding: 10px;
+
+  background:$white;
+  min-height: 110vh !important;
+  height:auto;
+}
+.cd-top-row{
+    margin: 20px 0 20px 0;
+}
+.border-outline {
+    border-radius: 10px;
+    border: 1px solid $dimgray;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+
+
+}
+.cd-card-content{
+    align-items: center;
+    cursor: pointer;
+}
+.cd-header{
+    background-image: linear-gradient(
+        0deg,
+        $outrageousorange 0%,
+        $lightsalmon 100%,
+    );
+    color: $white!important;
+    padding: 0.13em 0.4em;
+    font-size: 15px;
+    float: left;
+    text-decoration: none;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 25px;
+    margin-bottom: 10px;
+
+}
+
+.profile-background{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.profile-image{
+    // width: 100%;
+    // height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%
+}
+.cd-name{
+    font-size: 21px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color:$black;
+}
+.verified-icon{
+    width: 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.cd-profession{
+    margin-bottom: 10px;
+    color: $grey;
+    font-size: 15px;
+}
+.cd-language{
+    font-size: 15px;
+    color: $grey;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.cd-experience{
+    font-size: 15px;
+    color: $grey;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.cd-amount{
+    margin-bottom: 0;
+    font-size: 13px;
+    margin-top: 1px;
+}
+
+.cd-footer {
+    width: 100% !important;
+    clear:both;
+    position:relative;
+    bottom: 0;
+    background: $gainsborolight !important;
+  }
+
+.cd-conversation-details{
+    border-width: 2px thin thin;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+.cd-ccv-details{
+    font-size: 14px;
+    color: $grey;
+    font-weight: 300;
+}
+
+.cd-icon-details{
+    width: 15px;
+    display: inline-flex;
+    margin-right: 5px;
+    align-items: left;
+color:$white;
+    &:hover{
+        // --fa-animation-duration: 3s;
+    //  --fa-fade-opacity: 0.6;
+    transform: rotate(45deg);
+    transition: all 0.25s ease-in-out;
+    };
+}
+.cd-orange-icon{
+    color:   $lightsalmon;
+}
+.cd-minutes-details{
+    font-weight: 600;
+    margin-right: 5px;
+    color: $grey;
+}
+.cd-conversation-mobile-details{
+display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: right;
+        margin-top: 10px;
+
+}
+.cd-icon-price{
+    font-size: large;
+    width: 20px;
+    margin-right: 5px;
+    color: $outrageousorange;
+ }
+ .cd-white-icon{
+    color:$white !important;
+    margin-right: 2px;
+
+ }
+ .cd-price-font{
+    font-size: 15px;
+}
+.desktop-buttons{
+  float: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.cd-button{
+
+    background-image: linear-gradient(
+        0deg,
+        $outrageousorange 0%,
+         $lightsalmon 100%,
+    );
+  color: $white;
+  border-radius: 10px;
+  margin: 1px 3px 2px 5px;
+  height: 49px;
+  &:focus {
+    outline: 0;
+    box-shadow: none !important;
+  }
+}
+.cd-desktop-price-icon
+{
+    color:$white;
+    height: 15px;
+    margin: 3px 3px 0 0;
+    font-size: 15px;
+}
+.cd-about-me{
+    margin-top: 15px;
+  text-align: center;
+  display:flex;
+}
+.cd-about-me-heading{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: $black;
+
+}
+.cd-about-me-para{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    overflow: hidden;
+    color: $dimgray;
+}
+
+.desktop-button-view{
+    display: block;
+
+}
+.mobile-button-view{
+    display:none;
+
+        };
+@media screen and (max-width: 960px) {
+    .mobile-button-view{
+display:block;
+
+    };
+    .desktop-button-view{
+        display: none;
+
+    }
+    .cd-border{
+        border-top: thin solid $grey;
+    }
+}
+

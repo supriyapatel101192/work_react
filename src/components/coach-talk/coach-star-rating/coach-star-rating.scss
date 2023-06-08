@@ -1,0 +1,17 @@
+@import "../../../styles/sass/index.scss";
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .on {
+    color: #f14d0d !important;
+  }
+  .off {
+    color: #ccc;
+  }
+  .coach-card-star-rating {
+    padding-bottom: 5px;
+  }

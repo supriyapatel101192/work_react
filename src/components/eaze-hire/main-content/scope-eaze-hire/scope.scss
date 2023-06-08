@@ -1,0 +1,23 @@
+
+@import '../../../../styles/sass/index.scss';
+
+.eh-why-outer
+{ 
+  position: static;
+}
+.eh-why-inner
+{
+  width: 50%; 
+  height: auto;
+  position: absolute;
+  opacity: 0.05;
+}
+.eh-text-on-back {
+  position: relative;
+  z-index: 1;
+  font-size: 9.5em;
+  margin-left: -4px;
+  font-weight: 900;
+  color: $blackpearl !important;
+  opacity: .18;
+}

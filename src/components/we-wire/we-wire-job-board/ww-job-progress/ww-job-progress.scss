@@ -1,0 +1,57 @@
+@import "../../../../styles/sass/index.scss";
+
+.header {
+  width: 100%;
+  display: inline-block;
+}
+.db-top-row {
+  margin-top: 50px;
+}
+.droppable {
+  border: 1px solid $gainsborolight;
+  border-top-left-radius: 4px;
+  background-color: $cultured;
+  min-height: 86vh;
+  margin: 2px;
+}
+.draggable {
+  margin: 15px 5px 5px 5px;
+  box-shadow: 0px 0px 10px 0px $davysgrey !important;
+}
+.ww-job-progress-container {
+    margin-top: 70px !important;
+    transition: all 0.5s, height 0s;
+  }
+.col-title {
+  @include flex-center;
+  margin-top: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: $dmSans;
+  color: $onyx;
+  text-transform: uppercase;
+}
+
+.ww-col-left {
+  @include flex-start;
+  padding: 0 !important;
+  margin: 0 0px 6px 0px !important;
+}
+@media only screen and (max-width: 500px) {
+  .ww-job-progress-container {
+    z-index: -100;
+    min-width: 100%;
+    max-width: 100%;
+    margin-left: 5%;
+    transition: all 0.5s, height 0s;
+  }
+  .db-top-row {
+    margin-top: 200px;
+  }
+  .ww-col-left {
+    @include flex-end;
+    width: 90%;
+    padding: 0 !important;
+    margin: 0px !important;
+  }
+}

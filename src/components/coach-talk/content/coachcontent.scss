@@ -1,0 +1,218 @@
+@import "../../../styles/sass/index.scss";
+
+
+.row-top {
+    margin: 90px 0 10px 0;
+}
+.col-left {
+    @include flex-start;
+}
+.col-right {
+  @include flex-end;
+}
+.ct-toggle {
+    color: $outrageousorange !important;
+    border: none !important;
+    background-color: transparent !important;
+    &:focus {
+      border: none !important;
+      outline: 0;
+      box-shadow: none !important;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .coach-search-bar {
+    border: 1px solid  $outrageousorange!important;
+    border-radius: 4px;
+    width: 100%;
+    margin: 0 5px 0 5px !important;
+    &:focus {
+      outline: 0;
+      box-shadow: none !important;
+    }
+  }
+ .coach-card-button {
+  background-image: linear-gradient(
+        0deg,
+      $outrageousorange 0%,
+         $lightsalmon 100%,
+    );
+  color:  $white;
+  border-radius: 3px;
+  margin: 1px 3px 2px 5px;
+  height: 37px;
+  font-weight: 300;
+  &:focus {
+    outline: 0;
+  }
+  box-shadow: 0 0 10px rgb(163, 163, 154);
+}
+
+  .coach-btn-text {
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Heebo", sans-serif;
+    bottom: 2px;
+    position: relative;
+  }
+  .ct-margin{
+    margin-bottom: 20px;
+    }
+    .card-component{
+      min-height:200px !important;
+      background-color: $white;
+      position: relative;
+      box-shadow: 0 0 10px rgb(163, 163, 154);
+      border-radius: 10px;
+      padding:1px;
+      margin-top:30px;
+      margin-bottom: 22px;
+      text-decoration: none;
+      padding: 2px;
+      width: 100%;
+      cursor: pointer;
+      transition: transform 0.2s;
+      &:hover {
+        transform: scale(1.02);
+      }
+    }
+    .direction{
+      width: 100%;
+      display: flex;
+      margin-right: 2px;
+    }
+    .coach-image{
+      cursor: pointer;
+      width: 75px;
+      height: 75px;
+      border-radius: 50%;
+      vertical-align: middle;
+    }
+
+    .total-view-people{
+      font-size: 10px;
+        color:$dimgray;
+
+    }
+
+    .coach-bio{
+      margin-left: 10px;
+      font-size: 12px;
+    }
+    .name{
+      font-size: 15px;
+      color:$black;
+        font-weight: 400;
+        text-decoration: none;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+    }
+    .designation{
+
+        color: $burntsienna;
+        font-weight: 300;
+        margin-top: 4px;
+        white-space: nowrap;
+        -webkit-font-smoothing: antialiased;
+        text-overflow: ellipsis;
+
+
+
+    }
+    .subject{
+      color: $dimgray;
+      -webkit-font-smoothing: antialiased;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-top: 4px;
+
+    }
+    // .coachcard-Subject{
+    //   -webkit-font-smoothing: antialiased;
+    //   text-overflow: ellipsis;
+    //   white-space: nowrap;
+    //   overflow: hidden;
+    //   color: #807f7f;
+    //   margin-top: 4px;
+    // }
+    .language{
+      color: $dimgray;
+      margin-top: 4px;
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .experience{
+      color: $dimgray;
+      margin-top: 4px;
+      -webkit-font-smoothing: antialiased;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .coach-price{
+      //   -webkit-font-smoothing: antialiased;
+      //   text-overflow: ellipsis;
+      //   white-space: nowrap;
+      margin-left: 20px;
+       }
+       .price-icon {
+        color: $dimgray;
+        height: 12px;
+        margin: 4px 5px 0 0;
+        font-weight: 600;
+      }
+      .price{
+        color: $dimgray;
+        font-weight: 400;
+      }
+      .minute{
+        font-weight: 400;
+        font-size: 10px;
+        color: $dimgray;
+      }
+      .coach-box{
+        display: flex;
+        flex-direction: row;
+        margin-left: 5px;
+        align-items: right;
+
+      }
+       .tick-arrow{
+       display: flex;
+        justify-content: center;
+          align-items: right;
+          margin-bottom: 20px;
+      }
+      .ct-icon-details{
+        width: 20px;
+       margin-right: 5px;
+       color:   $lightsalmon ;
+      //  border-color: $outrageousorange;
+      //  border-width: 1px solid;
+       &:hover{
+        // --fa-animation-duration: 3s;
+    //  --fa-fade-opacity: 0.6;
+    transform: rotate(45deg);
+    transition: all 0.25s ease-in-out;
+
+      }
+    }
+.ct-icon-feature{
+  display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: right;
+        margin-top: 3px;
+
+}
+
+
+
+
+
+
+

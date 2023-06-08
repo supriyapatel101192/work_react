@@ -1,0 +1,235 @@
+@import '../../../styles/sass/index.scss';
+
+.navbar-eh {
+  background-color: $blackpearl;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: fixed !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.nav-container-eh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1500px;
+}
+.display-header-right{
+  position: fixed;
+  top:0;
+  right: 0;
+  padding: 1px 15px;
+}
+.align-eh-header {
+  font-size: 10px;
+  font-weight: 700;
+  color: $isabelline;
+  margin-right: 5px;
+}
+.align-eh-wenex {
+  font-size: 14px;
+  font-weight: bold;
+  color: $aqua;
+}
+.align-eh-wenex:hover {
+  color: $lightcayan;
+  text-decoration: underline;
+}
+.text-powered{
+    text-decoration: none;
+}
+.nav-logo-eh {
+  color: $blackpearl;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  flex-grow: 1;
+}
+
+.nav-menu-eh {
+  display: flex;
+  list-style: none;
+  text-align: left;
+  padding-top: 35px;
+  margin-right: 1rem;
+}
+
+.nav-links-eh {
+  font-size: 16px;
+  font-style: initial;
+  color: $bayofmany;
+  text-decoration: none;
+  height: 100%;
+  border-bottom: 1px solid transparent;
+}
+
+.show>.nav-links-eh:focus {
+  color: $coral;
+}
+
+.show>.nav-links-eh::after {
+  color: $coral;
+}
+
+.nav-links-eh:hover {
+  color: $blackcurrant !important;
+}
+
+.nav-item-eh {
+  line-height: 28px;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.nav-item-eh:after {
+  content: "";
+  display: block;
+  height: 0px;
+  width: 0;
+  background: $aliceblue;
+  transition: width 0.7s ease, background-color 0.5s ease;
+}
+
+.nav-item-eh:hover:after {
+  width: 100%;
+  background: $aliceblue;
+}
+
+.nav-login-button-eh {
+  font-size: 15px;
+  background-image: linear-gradient(0deg, $tangerineyellow 0%, $lemonchiffon 100%);
+  color: $blackpearl;
+  border-radius: 2px;
+  margin-left: 15px;
+  padding: 8px 12px 8px 12px;
+  text-decoration: none;
+}
+
+.nav-login-button-eh:focus{
+  outline: none;
+  box-shadow:none !important;
+}
+
+.nav-login-button-eh:hover {
+  color: $blackpearl;
+}
+
+.nav-icon-eh {
+  display: none;
+}
+
+.nav-icon-eh:focus {
+  color: $orange;
+}
+
+.nav-close-btn-eh{
+  font-size: 32px !important;
+  margin-right: 5px;
+  color: $white;
+}
+
+.nav-open-btn-eh{
+   color: $white;
+}
+
+@media screen and (max-width: 960px) {
+  .nav-menu-eh {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: center;
+    position: absolute;
+    width: 100%;
+    top: 75px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+  .nav-menu-eh.active {
+    background: $cultured;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    padding-right: 30px !important;
+  }
+
+  .nav-item-eh {
+    line-height: 40px !important;
+    margin-left: 1px !important;
+  }
+  li {
+    border-bottom: 0px solid $silver;
+    width: 100% !important;
+  }
+
+  .nav-item-eh .active {
+    color: $bayofmany;
+    border: none;
+  }
+
+  .nav-links-eh {
+    padding: 1rem 0 1rem 0;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-icon-eh {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-60%, 30%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: $blackpearl;
+    padding-top: 10px;
+    padding-right: 5px;
+  }
+  .nav-login-button-eh {
+    margin-bottom: 20px;
+    padding: 12px 18px 12px 12px;
+    background-image: linear-gradient(0deg, $tangerineyellow 0%, $lemonchiffon 100%);
+    color: $blackpearl;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 16px !important;
+  }
+  .nav-login-button-eh:focus{
+    outline: none;
+    box-shadow:none !important;
+  }
+  .nav-item-eh-login {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .eh-icon-link-btn {
+    color: $blackpearl !important;
+    margin-right: 7px;
+    font-size: .91em;
+    margin-bottom: 1px;
+  }
+}
+.eh-icon-link {
+  color: $blackpearl;
+  margin-right: 5px;
+  font-size: .71em;
+  margin-bottom: 2px
+}
+.eh-icon-link-btn {
+  color: $blackpearl;
+  margin-right: 7px;
+  font-size: .71em;
+  margin-bottom: 1px
+}

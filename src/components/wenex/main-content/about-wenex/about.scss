@@ -1,0 +1,82 @@
+@import '../../../../styles/sass/index.scss';
+
+.about-bg {
+    margin-top: 7rem;
+    padding-bottom: 3rem !important;
+    background: $cultured;
+    max-width: 100% !important;
+}
+.text-about-grey{
+    color: $bayofmany;
+}
+.align-about-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: transparent;
+    background: none;
+    margin-bottom: 5px;
+}
+.about-icon-on-back {
+  font-size: 4rem;
+  color: $tangerineyellow !important;
+  margin-bottom: 2rem;
+}
+.margin-about-text{
+    padding: 10px;
+}
+.card-about-product {
+    box-shadow: 0 1px 20px 0px rgba(10, 0, 10, 0.2);
+    border-top: 10px solid $darkslateblue;
+    border-radius: 3px;
+    min-height: 400px;
+}
+.text-justify {
+    // text-align:justify;
+    word-spacing: 2px;
+    line-height: 1.3rem;
+}
+.margin-about-text-all-prod{
+    padding: 2rem;
+}
+.text-heading{
+    color: $darkslateblue;
+}
+.about-button {
+    padding: .3rem 1rem .3rem 1rem;
+    background-image: linear-gradient(0deg, $tangerineyellow 0%, $lemonchiffon 100%);
+    color: $blackpearl;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.about-button:focus{
+    outline: none;
+    box-shadow:none !important;
+  }
+.about-button:hover{
+    background: $shandy;
+    color: $darkgreen;
+}
+.about-footer-bg {
+    background: $white;
+}
+.about-outer
+{ 
+  position: static;
+}
+.about-inner
+{
+  width: 50%; 
+  height: auto;
+  position: absolute;
+  left:12%;
+  opacity: .15;
+}
+.about-text-sec-header{
+    color: $robineggblue;
+}
+.about-text-header {
+    font-size: 16px;
+    font-style: initial;
+    color: $bayofmany;
+  }

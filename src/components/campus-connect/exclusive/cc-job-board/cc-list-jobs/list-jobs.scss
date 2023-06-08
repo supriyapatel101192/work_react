@@ -1,0 +1,212 @@
+@import "../../../../../styles/sass/index.scss";
+
+.cc-list-job-card-content {
+  border-radius: 1px;
+  background-color: $white;
+  transition: transform 0.3s;
+  display: "block";
+  margin-bottom: 15px;
+  box-shadow: 0 1px 20px 0px rgba(10, 0, 10, 0.2);
+  min-height: 260px !important;
+  &:hover {
+    transform: scale(1.01);
+  }
+}
+.cc-list-job-jb-container {
+  margin-top: 70px;;
+  height: 300px;
+}
+.cc-list-job-card-header {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: $dmSans;
+  color: $onyx;
+  cursor: pointer;
+}
+.cc-list-job-card-header:hover {
+  background: $gainsborolight !important;
+}
+.cc-list-job-card-title {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: $dmSans;
+  color: $bayofmany;
+  min-height: 50px;
+}
+.cc-list-job-job-title {
+  font-weight: 550;
+  font-size: 15px;
+  font-family: $dmSans;
+  color: $onyx;
+  margin-top: 10px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cc-list-job-content-text {
+  font-weight: 400;
+  font-size: 13px;
+  font-family: $dmSans;
+  color: $onyx;
+}
+.cc-list-job-content-text-jd {
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 13px;
+  font-family: $dmSans;
+  color: $onyx;
+  width: 600px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cc-list-job-content-text-keywords {
+  font-weight: 300;
+  font-size: 12px;
+  font-family: $dmSans;
+  color: $onyx;
+  margin-right: 5px;
+}
+.cc-list-job-card-button {
+  background-image: linear-gradient(
+    10deg,
+    $easternblue 0%,
+    $greenvogue 100%
+  );
+  border: 1px solid $easternblue !important;
+  border-radius: 3px;
+  margin: 1px 3px 2px 5px;
+  height: 35px;
+  &:focus {
+    outline: 0;
+    box-shadow: none !important;
+  }
+  color: $white !important;
+  font-family: $dmSans;
+  font-weight: bold;
+  font-size: 15px;
+}
+.cc-list-job-jb-toggle {
+  color: $greenvogue !important;
+  border: none !important;
+  background-color: transparent !important;
+  &:focus {
+    border: none !important;
+    outline: 0;
+    box-shadow: none !important;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+.cc-list-job-btn-text {
+  font-weight: 300;
+  font-size: 14px;
+  font-family: $dmSans;
+  bottom: 2px;
+  position: relative;
+}
+.cc-list-job-card-save-icon {
+  color: $amethyst;
+  margin: 0 5px 5px 0;
+}
+.cc-list-job-card-icon {
+  height: 12px;
+  color: $easternblue;
+  margin: 4px 8px 0 0;
+}
+.cc-list-job-card-icon-arrow {
+  height: 25px;
+  color: $easternblue;
+  margin: 4px 0 5px 50px;
+}
+.cc-list-job-card-icon-bullet {
+  height: 5px;
+  color: $easternblue;
+  margin: 0px 2px 4px 5px;
+}
+.cc-list-job-content-keywords {
+  @include flex-start;
+  padding: 10px 0 0 0;
+  max-width: min-content;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cc-list-job-col-left {
+  @include flex-start;
+}
+.cc-list-job-col-right {
+  @include flex-end;
+}
+.cc-list-job-col-center {
+  @include flex-center;
+}
+.cc-list-job-card-row-one {
+  padding: 5px 0 0 0;
+}
+.cc-list-job-jb-card-img {
+  height: auto;
+  width: 55px;
+  max-height: 35px !important;
+}
+.cc-list-job-card-modal-body {
+  background-color: $magnolia !important;
+}
+.cc-list-job-card-modal {
+  display: block;
+}
+.cc-list-job-row-top {
+  margin: 60px 0 10px 0;
+}
+.cc-list-job-jb-card-margin {
+  margin-bottom: 20px;
+}
+.cc-list-job-jb-input-contact {
+  margin: 15px 0px 20px 0px;
+  font-family: $dmSans;
+  font-size: 16px !important;
+  border: 1px solid $gainsboro !important;
+  border-radius: 2px !important;
+  background-color: $white;
+  &:hover {
+    border: 1px solid $lightsalmon !important;
+  }
+  &:focus {
+    border-color: $lightsalmon !important;
+    box-shadow: none !important;
+  }
+}
+.cc-list-job-jb-upload-label {
+  margin-left: 2px;
+  font-weight: 550;
+  font-family: $dmSans;
+  font-size: 16px !important;
+  color: $onyx;
+}
+.cc-list-job-jb-resume-upload {
+  border: 1px solid $gainsboro !important;
+  height: 35px;
+  margin: 5px 0px 10px 0px;
+  width: 75%;
+  border-radius: 2px !important;
+  background-color: $white;
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+.cc-list-job-apply-modal {
+  font-family: $dmSans;
+  font-weight: 550;
+  font-size: 14px !important;
+  text-transform: capitalize;
+}
+.cc-list-job-success-apply {
+  background: $screamingreen;
+}
+@media screen and (max-width: 960px) {
+  .cc-list-job-jb-container {
+    margin-top: 100px;
+  }
+}

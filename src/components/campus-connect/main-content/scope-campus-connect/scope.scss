@@ -1,0 +1,26 @@
+
+@import '../../../../styles/sass/index.scss';
+
+.cc-why-outer
+{ 
+  position: static;
+}
+.cc-why-inner
+{
+  width: 50%; 
+  height: auto;
+  position: absolute;
+  opacity: 0.05;
+}
+.cc-text-on-back {
+  position: relative;
+  z-index: 1;
+  font-size: 3.5em;
+  margin-left: -4px;
+  font-weight: 900;
+  color: $salem !important;
+  opacity: .32;
+}
+.margin-bottom-cc-scope{
+  margin-bottom: 3rem;
+}

@@ -1,0 +1,35 @@
+@import '../../styles/sass/index.scss';
+
+.breadcrumbContainerEH {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.5px;
+  color: $bombay;
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  div:last-child {
+    color: $raven;
+  }
+
+  :not(:first-child):not(:last-child):after {
+    content: ">";
+    font-size: 15px;
+    color: $oslogray;
+    margin-left: 8px;
+  }
+}
+.linkEH {
+  text-decoration: none;
+  display: flex;
+}
+.linkTextEH {
+  margin-left: 0.5rem;
+}
+.linkTextEH:hover {
+  text-decoration: underline;
+  transform: scale(1.03);
+}

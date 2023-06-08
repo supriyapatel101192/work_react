@@ -1,0 +1,255 @@
+@import "../../../../styles/sass/index.scss";
+
+.ww-profile-container {
+  margin-top: 10px !important;
+}
+.ww-profile-bg {
+  border-radius: 10px;
+  height: 330px;
+  margin: 60px 10px 10px 10px;
+  background: $alabaster;
+}
+.ww-profile-col-left {
+  border-radius: 10px;
+  min-height: 1200px !important;
+  margin: 20px 0px 20px 20px;
+  background: $alabaster;
+}
+.ww-profile-col-right {
+  border-radius: 10px;
+  min-height: 300px;
+  margin: 20px 0px 0px 60px;
+  background: $alabaster;
+}
+.ww-profile-bg-img-col {
+  height: 220px;
+  width: 95%;
+  margin: 20px;
+  background: black;
+}
+.ww-profile-bg-img {
+  width: 100% !important;
+  height: 100% !important;
+}
+.ww-profile-img-col {
+  position: absolute;
+  top: 46%;
+  margin: 0px 0px 0px 35px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background: white;
+}
+.ww-profile-img {
+  margin: 5px;
+  width: 80%;
+  height: 70%;
+}
+.ww-usr-name {
+  font-size: 18px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-family: $dmSans;
+  color: black;
+}
+.ww-usr-data {
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: $dmSans;
+  color: $davysgrey;
+  opacity: 0.8;
+}
+.ww-usr-data-label {
+  @include flex-center;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: $dmSans;
+  color: $davysgrey;
+  opacity: 0.8;
+}
+.ww-usr-data-val {
+  margin-top: 20px;
+  @include flex-center;
+  font-size: 25px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-family: $dmSans;
+  color: black;
+}
+.ww-usr-follow-col {
+  @include flex-end;
+  margin-top: 25px;
+}
+.ww-usr-msg-col {
+  @include flex-start;
+  margin-top: 25px;
+}
+.ww-usr-btn {
+  padding: 15px 30px 15px 30px;
+  background: $black;
+  border: 1px solid $black !important;
+  border-radius: 8px;
+  margin: 1px 3px 2px 5px;
+  &:focus,
+  &:active,
+  &:hover {
+    background: $black;
+    outline: 0;
+    box-shadow: none !important;
+  }
+  color: $white !important;
+  font-family: $dmSans;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.ww-usr-hl {
+  margin-top: 25px;
+}
+.ww-usr-hl-heading {
+  font-size: 17px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-family: $dmSans;
+  color: black;
+}
+.ww-usr-hl-more {
+  margin-left: 50%;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: $dmSans;
+  color: $davysgrey;
+  opacity: 0.8;
+}
+.ww-usr-hl-content {
+  font-size: 16px;
+  font-weight: bold;
+  word-spacing: 4px;
+  font-family: $dmSans;
+  color: $davysgrey;
+  opacity: 0.8;
+}
+@media only screen and (max-width: 500px) {
+  .ww-profile-heading {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: $white !important;
+  color: $black !important;
+  border-bottom: none !important;
+  &:hover,
+  &:active {
+    background-color: $white !important;
+  }
+  padding: 10px 0px 20px 0px;  
+}
+  .ww-profile-container {
+    margin-top: 15% !important;
+  }
+  .ww-profile-bg {
+    border-radius: 10px;
+    height: 400px;
+    margin: 20px;
+    background: $alabaster;
+  }
+  .ww-profile-col-left {
+    width: 100%;
+    border-radius: 10px;
+    min-height: 1200px !important;
+    margin: 20px 0px 20px 20px;
+    background: $alabaster;
+  }
+  .ww-profile-col-right {
+    width: 100%;
+    border-radius: 10px;
+    min-height: 300px;
+    margin: 20px 0px 0px 20px;
+    background: $alabaster;
+  }
+  .ww-profile-col-right-open {
+    width: 100%;
+    border-radius: 10px;
+    min-height: 300px;
+    margin: 20px 0px 0px 20px;
+    background: $alabaster;
+  }
+
+  .ww-profile-img-col {
+    position: absolute;
+    top: 60%;
+    right: 10%;
+    margin: 0px 0px 0px 35px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: white;
+  }
+  .ww-profile-img {
+    margin: 5px;
+    width: 80%;
+    height: 70%;
+  }
+  .ww-usr-name {
+    width: 100%;
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: $dmSans;
+    color: black;
+  }
+  .ww-usr-data {
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: $dmSans;
+    color: $davysgrey;
+    opacity: 0.8;
+  }
+  .ww-usr-data-label {
+    @include flex-center;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: $dmSans;
+    color: $davysgrey;
+    opacity: 0.8;
+  }
+  .ww-usr-data-val {
+    margin-top: 20px;
+    @include flex-center;
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: $dmSans;
+    color: black;
+  }
+  .ww-usr-follow-col {
+    @include flex-end;
+    margin-top: 25px;
+  }
+  .ww-usr-msg-col {
+    @include flex-start;
+    margin-top: 25px;
+  }
+  .ww-usr-btn {
+    padding: 5px 10px 5px 10px;
+    background: $black;
+    border: 1px solid $black !important;
+    border-radius: 8px;
+    margin: 1px 3px 2px 5px;
+    &:focus,
+    &:active,
+    &:hover {
+      background: $black;
+      outline: 0;
+      box-shadow: none !important;
+    }
+    color: $white !important;
+    font-family: $dmSans;
+    font-weight: bolder;
+    font-size: 18px;
+  }
+}

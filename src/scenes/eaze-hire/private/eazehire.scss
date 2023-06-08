@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo');
+@import '../../../styles/sass/index.scss';
+
+.eh-nav-container-eh {
+  max-width: 100% !important;
+  background-color: $white;
+  min-height: 110vh;
+  height: auto;
+  margin: 1px;
+}
+
+.eh-top-row {
+  position: fixed;
+  background: $white  !important;
+  width: 100%;
+  z-index: 100;
+  border-bottom: 1px solid $magnolia;
+}
+
+.eh-logo-float-right {
+  display: flex !important;
+  align-items: flex-end !important;
+  justify-content: flex-end !important;
+  flex: 1;
+}
+
+.eh-nav-menu-center-align {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-items: flex-start;
+}
+
+.nav-icon-sidebar-eh-mobile {
+  display: none;
+}
+
+.nav-icon-sidebar-eh {
+  display: block;
+}
+
+.nav-close-btn-eh {
+  font-size: 32px !important;
+  margin-right: 10px;
+  color: $coral;
+}
+
+.nav-open-btn-eh {
+  color: $blackpearl;
+  margin-right: 6px;
+}
+
+@media screen and (max-width: 960px) {
+  .nav-icon-sidebar-eh {
+    display: none;
+  }
+
+  .nav-icon-sidebar-eh-mobile {
+    display: block;
+  }
+
+  .eh-logo-float-right {
+    display: none !important;
+  }
+
+  .eh-row-header-nav {
+    content: "";
+    clear: both;
+    // display: table;
+    // display: inline-block;
+    vertical-align: middle;
+  }
+
+  .eh-column-header-nav-left {
+    float: left;
+    margin-left: 10px;
+  }
+
+  .eh-column-header-nav-right {
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+
+  .nav-menu-eh-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    //opacity: 1;
+    // transition: all 0.5s ease;
+  }
+
+  .margin-breadcrumbs-eh {
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+  }
+
+  .side-bar-grid-1-eh {
+    display: none;
+  }
+
+  .side-bar-grid-2-eh {
+    display: none;
+  }
+
+  .row-eh {
+    margin-top: -1px;
+  }
+
+  .eh-nav-menu-component {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: center;
+    position: absolute;
+    width: 100%;
+    top: 75px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .eh-nav-menu-component.active {
+    background: $white; // linear-gradient(25deg, $darkslateblue, $blackcurrant);
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    // padding-right: 30px !important;
+  }
+
+  .eh-nav-item-component {
+    line-height: 40px !important;
+    margin-left: 1px !important;
+  }
+}
+
+.eh-unauthorized-centered {
+  position: fixed;
+  top: 50%;
+  left: 35%;
+}
+
+.eh-unauthorized-text {
+  color: $coral;
+}

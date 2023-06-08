@@ -1,0 +1,40 @@
+@import "../../styles/sass/index.scss";
+.coach-container {
+  background: #fdf3f1;
+    min-height: 100vh;
+    max-width: 100% !important;
+    height:auto;
+  }
+  .card-coach-col{
+    overflow: scroll !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+  .card-coach-filter-col {
+    margin-top: 70px !important;
+  }
+  .ct-footer {
+    width: 100% !important;
+    clear:both;
+    position:relative;
+    top: 0;
+    z-index: 1030;
+    background: rgb(249, 235, 208);
+  }
+  .ct-btn-icon {
+    background: transparent !important;
+    margin: 2px;
+    color: #f14d0d !important;
+  }
+  .ct-footer-icon{
+    color: #f14d0d;
+  }
+  .ct-copyright {
+    @include flex-center;
+    font-size: 13px;
+    color: $raisinblack;
+  }
+  .ct-company-data{
+    font-size: 15px;
+    text-decoration: none;
+    color: $endeavour !important;
+  }

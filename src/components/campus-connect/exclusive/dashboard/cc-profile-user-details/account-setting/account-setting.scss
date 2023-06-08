@@ -1,0 +1,28 @@
+@import '../../../../../../styles/sass/index.scss';
+
+.cc-acnt-set-title {
+  font-size: 18px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-family: $dmSans;
+  color: black;
+}
+.cc-acnt-set-input {
+  height: 55px;
+  font-weight: 400;
+  margin: 15px 0;
+  background: $white;
+  border: 1px solid $geyser;
+  border-radius: 8px;
+  color: $davysgrey;
+  opacity: 0.8;
+  font-size: 15px;
+  word-spacing: 1px;
+  font-family: $dmSans;
+  &:focus {
+    border: 1px solid $black;
+    box-shadow: none !important;
+    color: $davysgrey;
+    opacity: 0.8;
+  }
+}

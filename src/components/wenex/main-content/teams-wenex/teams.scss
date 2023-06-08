@@ -1,0 +1,69 @@
+@import '../../../../styles/sass/index.scss';
+
+.team-bg {
+    margin-top: 7rem;
+    padding-bottom: 3rem !important;
+    background: $white;
+    max-width: 100% !important;
+}
+.text-team-grey{
+    color: $bayofmany;
+}
+.wnx-team-outer
+{ 
+  position: static;
+}
+.wnx-team-inner
+{
+  width: 50%; 
+  height: auto;
+  position: absolute;
+  opacity: 0.05;
+}
+.wnx-team-center {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.wnx-founder-card {
+  text-align: center;
+  width: 70%;
+  background: $white;
+  border: 0;
+  position: relative;
+  padding-top: 10px;
+  margin: 20px;
+  box-shadow: 0 1px 20px 0px rgba(10, 0, 10, 0.2);
+}
+.founder-header{
+  background: transparent !important;
+  border-bottom: transparent;
+}
+.founder-header:hover{
+  background: transparent !important;
+  cursor: unset;
+}
+.team-img{
+  height: auto;
+}
+.text-team-grey{
+  color: $bayofmany;
+}
+.text-team-blue{
+  color: $darkcerulean;
+}
+.fab{
+  color: $darkcerulean;
+}
+.team-btn-neutral{
+  font-size: 18px !important;
+  color: $white !important;
+  background-color:  transparent !important;// #00a0dc;
+  border: 1px solid $perano !important;
+  border-radius: 5px;
+}
+.team-btn-neutral:hover {
+  color: $white  !important;
+  background-color: transparent !important;// #0077b5;
+  border-color: $whisper !important;
+}

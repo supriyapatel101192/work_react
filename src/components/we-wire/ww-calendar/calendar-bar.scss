@@ -1,0 +1,121 @@
+@import "../../../styles/sass/index.scss";
+
+.ww-event-card-filter {
+  background-color: $white;
+  padding: 13px 0px 13px 20px !important;
+  max-height: 100% !important;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 12px;
+  margin-left: 5px;
+  display: flex;
+}
+@mixin filter-text {
+  font-family: $dmSans;
+  color: $black;
+}
+.ww-event-filter-heading {
+  @include filter-text;
+  margin-left: 5px !important;
+  font-weight: 550;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.ww-event-filter-sub-heading {
+  @include filter-text;
+  font-weight: 550;
+  font-size: 14px;
+}
+.ww-event-accordian-item {
+  border: none !important;
+  margin-top: 5px;
+  outline: 0;
+  background: $white;
+  border-radius: 8px !important;
+  border: none;
+}
+.ww-event-accordian-item button {
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  background-color: $white;
+  transition: transform 0.5s;
+  &:hover {
+    border: 1px solid $tangerineyellow;
+    background-color: $white;
+    transform: scale(1.01);
+  }
+  &:not(.collapsed) {
+    border: 1px solid $tangerineyellow;
+    background-color: $white;
+  }
+}
+.ww-event-checkbox-label {
+  @include filter-text;
+  margin-left: 5px !important;
+  font-weight: 500;
+  font-size: 15px;
+}
+.ww-event-filter-button {
+  background-color: $tangerineyellow !important;
+  border: 1px solid $tangerineyellow !important;
+  height: 30px;
+  &:focus {
+    outline: 0;
+    box-shadow: none !important;
+  }
+  margin-left: 80px;
+}
+.ww-event-filter-check-input:checked {
+  background-color: $tangerineyellow !important;
+  border: 0 !important;
+}
+.ww-event-filter-check-input:focus,
+.ww-event-filter-check-input::after,
+.ww-event-filter-check-input:not(:disabled):not(.disabled):active:focus {
+  color: $black;
+  outline: 0;
+  border: 0;
+  box-shadow: 0 0 0 0.1rem $tangerineyellow !important;
+}
+.ww-event-filter-cross {
+  height: 20px;
+  &:focus {
+    outline: 0;
+    box-shadow: none !important;
+  }
+  cursor: pointer;
+  color: $tangerineyellow !important;
+}
+
+.ww-event-filter-cross-left{
+  flex: 85%;
+  float: left;
+  text-align: start;
+}
+.ww-event-filter-cross-right{
+  flex: 15%;
+  float: right;
+  text-align: center;
+}
+.ww-event-accordian-style {
+  scroll-behavior: smooth;
+  overflow: scroll;
+  min-height: 200px !important;
+  max-height: 525px !important;
+  padding: 0px 5px 0px 5px !important;
+}
+.ww-event-sidebar {
+  height: 80vh;
+  padding: 70px 25px 0px 25px !important;
+  width: 100%;
+  background: white;
+}
+
+@media only screen and (max-width: 500px) {
+  .ww-event-sidebar {
+    display: block;
+    width: 84%;
+    margin: 50px;
+    transition: all 0.5s, height 0s;
+  }
+}

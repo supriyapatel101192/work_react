@@ -1,0 +1,106 @@
+@import "../../styles/sass/index.scss";
+
+.wewire-container {
+  max-width: 98%;
+  height: 100%;
+  padding: 0.1px 0px 0px 0px !important;
+  background-color: white;
+}
+.ww-wnx-logo {
+   width: 180px;
+}
+.row-ww {
+  margin-top: 50px;
+}
+.side-bar-ww {
+  max-height: 80vh;
+}
+.ww-top-row {
+  position: fixed;
+  background: white !important;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 99%;
+  z-index: 100;
+}
+.ww-search-bar {
+  border: 1px solid $tangerineyellow !important;
+  border-radius: 15px;
+  width: 100%;
+  margin: 0 5px 0 5px !important;
+  &:focus {
+    outline: 0;
+    box-shadow: none !important;
+  }
+}
+.search-icon {
+  position: absolute;
+  right: 43%;
+  top: 62px;
+  width: 20px;
+  height: 20px;
+  color: $darkgray !important;
+  cursor: pointer;
+}
+.ww-user-button {
+  padding: 10px;
+  background: $lemonchiffon;
+  border: 1px solid $lemonchiffon !important;
+  border-radius: 22px;
+  margin: 3px 15px 0px 0px !important;
+  height: 18px;
+  font-family: $dmSans;
+  font-weight: bold;
+  font-size: 15px;
+  color: $scorpion;
+  &:focus,
+  &:hover {
+    outline: 0;
+    box-shadow: none !important;
+    color: $scorpion;
+  }
+}
+.ww-col-right {
+  @include flex-end();
+  margin-bottom: 14px;
+}
+.ww-col-center{
+  @include flex-center();
+}
+.ww-col-left {
+    @include flex-start();
+}
+@media only screen and (max-width: 500px) {
+  .ww-top-row {
+    position: fixed;
+    background: white !important;
+    padding-top: 45px;
+    padding-bottom: 50px;
+    width: 99%;
+    z-index: 100;
+  }
+  .ww-wnx-logo {
+    width: 100px;  
+  }
+  .xs-ww-row {
+    @include flex-center;
+  }
+
+  .ww-user-button {
+    padding: 10px;
+    background: $lemonchiffon;
+    border: 1px solid $lemonchiffon !important;
+    border-radius: 22px;
+    margin: 5px 80px 0px 0px !important;
+    font-family: $dmSans;
+    font-weight: bold;
+    font-size: 15px;
+    color: $scorpion;
+    &:focus,
+    &:hover {
+      outline: 0;
+      box-shadow: none !important;
+      color: $scorpion;
+    }
+  }
+}
